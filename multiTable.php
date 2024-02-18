@@ -6,7 +6,7 @@
     <title>Table Multiplication</title>
     <style>
         table,th,td{
-            border: 1px solid black;
+            /* border: 1px solid black; */
             border-collapse: collapse;
             padding: 5px;
         }
@@ -16,14 +16,10 @@
     <center>
     <h3>Multiplication Table</h3>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-    Enter Number: 
-    <input type="number" name="number">
-    <br>
-    <br>
-    <input type="submit" name="submit" value="Generate Table">
-    <br>
-    <br>
-    <input type="submit" name="clear" value="Clear Table">
+    Select Number: 
+    <input type="number" name="number">&nbsp;&nbsp;&nbsp;
+    <input type="submit" name="submit" value="Submit">&nbsp;&nbsp;&nbsp;
+    <input type="submit" name="clear" value="Clear">
    </form>
 
    <?php
@@ -31,7 +27,8 @@
     if(isset($_POST["clear"])){
     //clear table
     //echo"<p>Table cleared</p>";
-   }elseif(isset($_POST["submit"])){
+   }
+   elseif(isset($_POST["submit"])){
     //Generate Multiplication Table
     $number = $_POST["number"];
     echo"<h3>Multiplication Table for $number</h3>";

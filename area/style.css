@@ -1,0 +1,21 @@
+.input input:number{
+    width: 100px;
+}
+
+.area{
+    padding: 10px;
+    border: 2px solid black;
+    width: 350px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: start;
+}
+.area input:number{
+    width:100px;
+    margin-top: 10px;
+}
+
+.result{
+    margin-top: 20px;
+}

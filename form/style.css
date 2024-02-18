@@ -1,0 +1,15 @@
+.container{
+    margin: 30px;
+    border: 2px solid black;
+    height: 70vh;
+    width: 350px;
+}
+
+table{
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(9, 9, 95);
+    color: #fff;
+}

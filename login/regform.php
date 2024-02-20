@@ -1,3 +1,14 @@
+<?php
+
+$conn=mysqli_connect("localhost","root","","newdb");
+if($conn){
+    echo "<h1>successfull</h1>";
+}else{
+    echo "<h1>unsuccessfull</h1>";
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

@@ -10,7 +10,7 @@
     <center>
         <div class="container">
             <h3>Registration form</h3>
-            <form action="" method="post">
+            <form action="formhandle.php" method="post">
 
                 <div class="search">
                     <input type="text" name="search" />
@@ -44,19 +44,17 @@
                     </tr>
                     <tr>
                         <td><label for="Address">Address</label></td>
-                        <td><textarea name="addres" id="" cols="21" rows="2"></textarea></td>
+                        <td><textarea name="address" id="" cols="21" rows="2"></textarea></td>
                     </tr>
                     </table>
 
                         <div class="bt">
-                            <td><input class="btn" type="button" value="Insert" /></td>
-                            <td><input class="btn" type="button" value="Update" /></td>
-                            <td><input class="btn" type="button" value="Delete" /></td>
-                            <td><input class="btn" type="button" value="View All" /></td>
+                            <td><input class="btn" type="submit" value="insert" name="insert" /></td>
+                            <td><input class="btn" type="submit" value="Update" /></td>
+                            <td><input class="btn" type="submit" value="Delete" /></td>
+                            <td><input class="btn" type="submit" value="View All" /></td>
                         </div>
 
-
-                </table>
             </form>
         </div>
     </center>

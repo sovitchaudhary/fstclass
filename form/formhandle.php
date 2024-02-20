@@ -1,0 +1,37 @@
+<?php
+    if (isset($_POST['insert'])) {
+        $formres=<<<Test
+            <table>
+                <tr>
+                    <td>uid</td>
+                    <td>$_POST[id]</td>
+                </tr>
+                <tr>
+                    <td>Username</td>
+                    <td>$_POST[uname]</td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>$_POST[password]</td>
+                </tr>
+                <tr>
+                    <td>fullName</td>
+                    <td>$_POST[fname]</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>$_POST[email]</td>
+                </tr>
+                <tr>
+                    <td>Mobile</td>
+                    <td>$_POST[mobile]</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>$_POST[address]</td>
+                </tr>
+            </table>
+        Test;
+        echo $formres;
+    }
+?>

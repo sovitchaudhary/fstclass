@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        .footer {
+         background-color: #984a45;
+         color: #fff;
+         padding: 15px;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         text-align: center;
+        }
+
+        .footer-section {
+         flex: 2;
+         margin: 0 10px;
+         max-width: 300px;
+        }
+
+        .footer-section .contact{
+            text-align: justify;
+            margin-left: 18%;
+        }
+
+        .footer-section .social-link a{
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            background-color: rgba(255,255,255,0.2);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            color: #ffffff;
+            transition: all 0.5s ease;
+        }
+
+        .footer-section .social-link a:hover{
+            color: #24262b;
+            background-color: #ffffff;
+        }
+
+        @media (max-width: 645px) {
+        .footer-section {
+        flex-basis: 100%;
+        margin: 10px 0;
+        }
+      }
+
+      @media (mxa-width: 769px){
+        .footer-section .contact{
+            font-size: 12px;
+        }
+      }
+
+      @media (max-width: 678px){
+        .footer-section .contact{
+            font-size: 10px;
+        }
+      }
+
+      @media (max-width: 958px){
+        .footer-section .contact{
+            font-size: 12px;
+        }
+      }
+
+      @media (max-width: 746px){
+        .footer-section .contact{
+            font-size: 10px;
+        }
+      }
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="footer-section">
+            <h2>Map Location</h2>
+            <div class="location">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224029.9504757147!2d80.48241361770762!3d28.675644601662704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a1f26279e66335%3A0x4eda4b4170d85e29!2sDhangadhi%2C%20Nepal!5e0!3m2!1sen!2sin!4v1708663907697!5m2!1sen!2sin"
+            width="200"
+            height="150"
+            style="border: 2"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h2>Contact</h2>
+            <div class="contact">
+            <p>Email: Basera123@gmail.com</p>
+            <p>Phone: +9779864753648</p>
+            <p>Whatsno: +9776474656897</p>
+            <p>Address: Dhangadhi,Nainadevi road</p>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h2>Social Link</h2>
+            <div class="social-link">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div><br>
+            <div class="copy">
+                &copy;2024 Hotel Basera | All Rights Reserved<br>
+            </div>
+        </div>
+</body>
+</html>

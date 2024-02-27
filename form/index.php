@@ -10,17 +10,16 @@
     <center>
         <div class="container">
             <h3>Registration form</h3>
-            <form action="formhandle.php" method="post">
-
-                <div class="search">
+            <div class="search">
                     <input type="text" name="search" />
                     <input class="btn" type="button" value="search">
                 </div>
+            <form action="formhandle.php" method="post">
 
                 <table>
                     <tr>
                         <td><label for="UId">UId</label></td>
-                        <td><input type="number" name="id" /></td>
+                        <td><input type="number" name="userid" /></td>
                     </tr>
                     <tr>
                         <td><label for="Username">Username</label></td>
